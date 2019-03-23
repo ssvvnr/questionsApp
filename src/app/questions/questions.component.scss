@@ -1,0 +1,27 @@
+
+// .example-radio-group {
+//     display: flex;
+//     flex-direction: column;
+//     margin: 15px 0;
+// }
+
+.example-radio-button  {
+    margin: 10 15px;
+}
+
+.example-radio-button ~ .example-radio-button{
+    margin: 10px 15px;
+}
+
+.mat-raised-button {
+    margin: 10px;
+}
+
+.mat-card {
+	margin: 10px;
+}
+.mat-card label {
+	width: 100%;    
+	display: block;
+	margin: 10px 0px;
+}

@@ -1,0 +1,39 @@
+<button mat-raised-button color="primary" routerLink="">Home</button>
+
+<form [formGroup]="myForm" (ngSubmit)="onFormSubmit()">
+
+  <mat-card *ngFor="let groups of groupsData; let j = index">
+    <mat-toolbar>
+      <mat-card-header>
+        <mat-card-title>{{ groups.oSGroup }}</mat-card-title>
+      </mat-card-header>
+    </mat-toolbar>
+    
+    <mat-card *ngFor="let list of groups.listofAlwaysAsk; let i = index">
+
+      <label id="example-radio-group-label">{{ list.question }}</label>
+      <mat-radio-group *ngIf="disableQuestions[0] !== i" aria-labelledby="example-radio-group-label" class="example-radio-group">
+        <mat-radio-button class="example-radio-button" *ngFor="let option of list.values" [value]="option" 
+          [name]="list.questionNo" (change)="onItemChange($event, option, i)">
+          {{option}}
+        </mat-radio-button>
+      </mat-radio-group>
+
+      <mat-radio-group *ngIf="disableQuestions[0] === i" aria-labelledby="example-radio-group-label" class="example-radio-group" [disabled]="isDisabled">
+        <mat-radio-button class="example-radio-button" *ngFor="let option of list.values" [value]="option" 
+          [name]="list.questionNo" (change)="onItemChange($event, option, i)">
+          <!-- [formControlName]="list.questionNo" [ngModel]="list.questionNo" -->
+          {{option}}
+        </mat-radio-button>
+      </mat-radio-group>
+
+    </mat-card>
+
+  </mat-card>
+
+  <!-- <pre>{{myForm.value | json}}</pre>
+  <pre>{{myForm.valid}}</pre> -->
+
+  <button mat-raised-button color="primary">Submit</button>
+
+</form>

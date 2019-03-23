@@ -1,0 +1,433 @@
+[
+  {
+    "oSGroup": "Program",
+    "group": "Program",
+    "subGroup": [
+      {
+        "selected": [
+          "Distribution"
+        ],
+        "listofQuestions": [
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q51",
+            "questionType": "dropdown",
+            "question": "Is the Subscription mandated with a HW purchase or can it be sold by itself?",
+            "answerToQuestion": "",
+            "values": [
+              "Mandated with a HW Purchase",
+              "Sold by itself"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q54",
+            "questionType": "Free Text",
+            "question": "Will MY (multi year) and/or SMS SKUs need to be created?  If so, please specify. ",
+            "answerToQuestion": "",
+            "values": [
+              "Yes",
+              "No"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "Support",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q19",
+            "questionType": "Free Text",
+            "question": "What is the expected service level? Please specify. ",
+            "answerToQuestion": "",
+            "values": [
+              "Yes",
+              "No"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "SOE"
+            ],
+            "secondaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q49",
+            "questionType": "Free Text",
+            "question": "Does the SW require HW? If yes, please specify. ",
+            "answerToQuestion": "",
+            "values": [
+              "Yes",
+              "No"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "Program Info",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Direct",
+              "Managed Service Provider",
+              "1-Tier Partner",
+              "2-Tier Partner",
+              "Distribution"
+            ],
+            "questionNo": "Q1",
+            "questionType": "Free Text",
+            "question": "Who are the target customers? ",
+            "answerToQuestion": "",
+            "values": [
+              "Yes",
+              "No"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "Global Finance"
+            ],
+            "secondaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q50",
+            "questionType": "Free Text",
+            "question": "How will the HW be stocked? ",
+            "answerToQuestion": "",
+            "values": [
+              "Yes",
+              "No"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q55",
+            "questionType": "dropdown",
+            "question": "What is the Disti fulfillment method? ",
+            "answerToQuestion": "",
+            "values": [
+              "Stock (HW Only)",
+              "Drop-ship (HW Only)",
+              "Certified UCS BTO (HW only)",
+              "System Integration (HW, SW, Services)",
+              "Not Applicable"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "Ops Assessment"
+          }
+        ],
+        "subGroupname": "Route to Market",
+        "attribute": null
+      }
+    ],
+    "listofAlwaysAsk": [
+      {
+        "oSgroup": "Program Info",
+        "group": "Other",
+        "subGroup": "Other",
+        "attribute": [
+          "Other"
+        ],
+        "questionNo": "Q4",
+        "questionType": "Free Text",
+        "question": "What is the Product Type for the offer? ",
+        "answerToQuestion": "",
+        "values": [
+          "Yes",
+          "No"
+        ],
+        "optionalMandatory": "Mandatory",
+        "rules": "values map to eGenie. Maps to Product Family",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "eGenie~~Product Type"
+      },
+      {
+        "oSgroup": "Program Info",
+        "group": "Other",
+        "subGroup": "Other",
+        "attribute": [
+          "Other"
+        ],
+        "questionNo": "Q6",
+        "questionType": "Radio Button",
+        "question": "Are you going to allow standard programs and promotions? ",
+        "answerToQuestion": "",
+        "values": [
+          "Yes",
+          "No"
+        ],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "Ops Assessment"
+      },
+      {
+        "oSgroup": "Billing & Compensation",
+        "group": "Other",
+        "subGroup": "Other",
+        "attribute": [
+          "Other"
+        ],
+        "questionNo": "Q14",
+        "questionType": "Radio Button",
+        "question": "Are cancellations allowed for this offer? ",
+        "answerToQuestion": "",
+        "values": [
+          "Yes",
+          "No"
+        ],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "FET"
+      },
+      {
+        "oSgroup": "Program Info",
+        "group": "Other",
+        "subGroup": "Other",
+        "attribute": [
+          "Other"
+        ],
+        "questionNo": "Q5",
+        "questionType": "Free Text",
+        "question": "What is the Product subGroup for the offer? ",
+        "answerToQuestion": "",
+        "values": [
+          "Yes",
+          "No"
+        ],
+        "optionalMandatory": "Mandatory",
+        "rules": "values map to eGenie. Maps to Product Family",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "eGenie~~Product Subgroup"
+      },
+      {
+        "oSgroup": "Pricing",
+        "group": "Other",
+        "subGroup": "Other",
+        "attribute": [
+          "Other"
+        ],
+        "questionNo": "Q47",
+        "questionType": "Radio Button",
+        "question": "Are additional uplifts required to be setup across various price lists?",
+        "answerToQuestion": "",
+        "values": [
+          "Yes",
+          "No"
+        ],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": ""
+      },
+      {
+        "oSgroup": "Pricing",
+        "group": "Other",
+        "subGroup": "Other",
+        "attribute": [
+          "Other"
+        ],
+        "questionNo": "Q48",
+        "questionType": "Radio Button",
+        "question": "Ability to articulate TCO value in a pre-sales phase cycle of a Deal?",
+        "answerToQuestion": "",
+        "values": [
+          "Yes",
+          "No"
+        ],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "Ops Assessment"
+      },
+      {
+        "oSgroup": "Revenue Attributes",
+        "group": "Other",
+        "subGroup": "Other",
+        "attribute": [
+          "Other"
+        ],
+        "questionNo": "Q63",
+        "questionType": "Radio Button",
+        "question": "Is this offer eligible to go through Channel Finance? ",
+        "answerToQuestion": "",
+        "values": [
+          "Yes",
+          "No"
+        ],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "B-View"
+      },
+      {
+        "oSgroup": "Billing & Compensation",
+        "group": "Other",
+        "subGroup": "Other",
+        "attribute": [
+          "Other"
+        ],
+        "questionNo": "Q15",
+        "questionType": "dropdown",
+        "question": "What types of cancelations are allowed? ",
+        "answerToQuestion": "",
+        "values": [
+          "Predetermined Cancellation Period",
+          "No Cancellation for convenience",
+          "Termination for Credit",
+          "Prorated Invoice"
+        ],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "FET"
+      }
+    ]
+  }
+]
