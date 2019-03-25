@@ -2,30 +2,60 @@
 
 <form [formGroup]="myForm" (ngSubmit)="onFormSubmit()">
 
-  <mat-card *ngFor="let groups of groupsData; let j = index">
-    <mat-toolbar>
+  <mat-card *ngFor="let groups of groupsData; let j = index" class="main-card">
+    <mat-toolbar color="accent">
       <mat-card-header>
         <mat-card-title>{{ groups.oSGroup }}</mat-card-title>
       </mat-card-header>
     </mat-toolbar>
     
-    <mat-card *ngFor="let list of groups.listofAlwaysAsk; let i = index">
+    <mat-card *ngFor="let subgroup of groups.subGroup" class="main-card">
+      <mat-toolbar >
+        <mat-card-header class="sub-group">
+          <mat-card-title>{{ subgroup.subGroupname }}</mat-card-title>
+        </mat-card-header>
+      </mat-toolbar>
 
-      <label id="example-radio-group-label">{{ list.question }}</label>
-      <mat-radio-group *ngIf="disableQuestions[0] !== i" aria-labelledby="example-radio-group-label" class="example-radio-group">
-        <mat-radio-button class="example-radio-button" *ngFor="let option of list.values" [value]="option" 
-          [name]="list.questionNo" (change)="onItemChange($event, option, i)">
-          {{option}}
-        </mat-radio-button>
-      </mat-radio-group>
+      <mat-card *ngFor="let list of subgroup.listofQuestions; let i = index">
 
-      <mat-radio-group *ngIf="disableQuestions[0] === i" aria-labelledby="example-radio-group-label" class="example-radio-group" [disabled]="isDisabled">
-        <mat-radio-button class="example-radio-button" *ngFor="let option of list.values" [value]="option" 
-          [name]="list.questionNo" (change)="onItemChange($event, option, i)">
-          <!-- [formControlName]="list.questionNo" [ngModel]="list.questionNo" -->
-          {{option}}
-        </mat-radio-button>
-      </mat-radio-group>
+        <div *ngIf="list.questionType === 'Radio Button'">
+          <label id="example-radio-group-label">{{ list.questionNo }}) {{ list.question }}</label>
+          <mat-radio-group *ngIf="disableQuestions[0] !== i" aria-labelledby="example-radio-group-label" class="example-radio-group">
+            <mat-radio-button class="example-radio-button" *ngFor="let option of list.values" [value]="option" 
+              [name]="list.questionNo" (change)="onItemChange($event, option, i)">
+              {{option}}
+            </mat-radio-button>
+          </mat-radio-group>
+
+          <mat-radio-group *ngIf="disableQuestions[0] === i" aria-labelledby="example-radio-group-label" class="example-radio-group" [disabled]="isDisabled">
+            <mat-radio-button class="example-radio-button" *ngFor="let option of list.values" [value]="option" 
+              [name]="list.questionNo" (change)="onItemChange($event, option, i)">
+              <!-- [formControlName]="list.questionNo" [ngModel]="list.questionNo" -->
+              {{option}}
+            </mat-radio-button>
+          </mat-radio-group>
+        </div>
+
+        <div *ngIf="list.questionType === 'Free Text'">
+          <label id="example-free-text-label">{{ list.questionNo }}) {{ list.question }}</label>
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Enter text..." value="">
+          </mat-form-field>
+        </div>
+
+        <div *ngIf="list.questionType === 'dropdown'">
+          <label id="example-dropdown-label">{{ list.questionNo }}) {{ list.question }}</label>
+          <mat-form-field>
+            <mat-label>Select</mat-label>
+            <mat-select>
+              <mat-option *ngFor="let value of list.values" [value]="value">
+                {{ value }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+      </mat-card>
 
     </mat-card>
 

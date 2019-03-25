@@ -39,6 +39,49 @@
             "source": "B-View"
           },
           {
+            "oSgroup": "Program Info",
+            "group": "Other",
+            "subGroup": "Other",
+            "attribute": [
+              "Other"
+            ],
+            "questionNo": "Q6",
+            "questionType": "Radio Button",
+            "question": "Are you going to allow standard programs and promotions? ",
+            "answerToQuestion": "",
+            "values": [
+              "Yes",
+              "No"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "Ops Assessment"
+          },
+          {
             "oSgroup": "RTM",
             "group": "Program",
             "subGroup": "Route to Market",
@@ -63,43 +106,38 @@
             "source": "B-View"
           },
           {
-            "oSgroup": "Support",
-            "group": "Program",
-            "subGroup": "Route to Market",
+            "oSgroup": "Billing & Compensation",
+            "group": "Other",
+            "subGroup": "Other",
             "attribute": [
-              "Distribution"
+              "Other"
             ],
-            "questionNo": "Q19",
-            "questionType": "Free Text",
-            "question": "What is the expected service level? Please specify. ",
+            "questionNo": "Q14",
+            "questionType": "Radio Button",
+            "question": "Are cancellations allowed for this offer? ",
             "answerToQuestion": "",
-            "values": [],
+            "values": [
+              "Yes",
+              "No"
+            ],
             "optionalMandatory": "Mandatory",
-            "rules": "",
-            "errorMessage": "Mandatory",
-            "primaryPOC": [
-              "SOE"
-            ],
-            "secondaryPOC": [
-              "BUPM",
-              "OLE"
-            ],
-            "source": "B-View"
-          },
-          {
-            "oSgroup": "RTM",
-            "group": "Program",
-            "subGroup": "Route to Market",
-            "attribute": [
-              "Distribution"
-            ],
-            "questionNo": "Q49",
-            "questionType": "Free Text",
-            "question": "Does the SW require HW? If yes, please specify. ",
-            "answerToQuestion": "",
-            "values": [],
-            "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -108,50 +146,38 @@
             "secondaryPOC": [
               "N/A"
             ],
-            "source": "B-View"
+            "source": "FET"
           },
           {
             "oSgroup": "Program Info",
-            "group": "Program",
-            "subGroup": "Route to Market",
+            "group": "Other",
+            "subGroup": "Other",
             "attribute": [
-              "Direct",
-              "Managed Service Provider",
-              "1-Tier Partner",
-              "2-Tier Partner",
-              "Distribution"
+              "Other"
             ],
-            "questionNo": "Q1",
+            "questionNo": "Q5",
             "questionType": "Free Text",
-            "question": "Who are the target customers? ",
+            "question": "What is the Product subGroup for the offer? ",
             "answerToQuestion": "",
             "values": [],
             "optionalMandatory": "Mandatory",
-            "rules": "",
-            "errorMessage": "Mandatory",
-            "primaryPOC": [
-              "Global Finance"
-            ],
-            "secondaryPOC": [
-              "BUPM",
-              "OLE"
-            ],
-            "source": "B-View"
-          },
-          {
-            "oSgroup": "RTM",
-            "group": "Program",
-            "subGroup": "Route to Market",
-            "attribute": [
-              "Distribution"
-            ],
-            "questionNo": "Q50",
-            "questionType": "Free Text",
-            "question": "How will the HW be stocked? ",
-            "answerToQuestion": "",
-            "values": [],
-            "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -160,7 +186,50 @@
             "secondaryPOC": [
               "N/A"
             ],
-            "source": "B-View"
+            "source": "eGenie~~Product Subgroup"
+          },
+          {
+            "oSgroup": "Pricing",
+            "group": "Other",
+            "subGroup": "Other",
+            "attribute": [
+              "Other"
+            ],
+            "questionNo": "Q47",
+            "questionType": "Radio Button",
+            "question": "Are additional uplifts required to be setup across various price lists?",
+            "answerToQuestion": "",
+            "values": [
+              "Yes",
+              "No"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": ""
           },
           {
             "oSgroup": "RTM",
@@ -533,38 +602,175 @@
         ],
         "attribute": null,
         "subGroupname": "Renewal Approach",
-        "listofQuestions": []
+        "listofQuestions": [
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q51",
+            "questionType": "dropdown",
+            "question": "Is the Subscription mandated with a HW purchase or can it be sold by itself?",
+            "answerToQuestion": "",
+            "values": [
+              "Mandated with a HW Purchase",
+              "Sold by itself"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q54",
+            "questionType": "Free Text",
+            "question": "Will MY (multi year) and/or SMS SKUs need to be created?  If so, please specify. ",
+            "answerToQuestion": "",
+            "values": [],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "Support",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q19",
+            "questionType": "Free Text",
+            "question": "What is the expected service level? Please specify. ",
+            "answerToQuestion": "",
+            "values": [],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "SOE"
+            ],
+            "secondaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q49",
+            "questionType": "Free Text",
+            "question": "Does the SW require HW? If yes, please specify. ",
+            "answerToQuestion": "",
+            "values": [],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          }
+        ]
       }
     ],
     "listofAlwaysAsk": [
       {
-        "oSgroup": "Support",
-        "group": "Other",
-        "subGroup": "Other",
+        "oSgroup": "RTM",
+        "group": "Program",
+        "subGroup": "Route to Market",
         "attribute": [
-          "Other"
+          "Distribution"
         ],
-        "questionNo": "Q16",
+        "questionNo": "Q51",
         "questionType": "dropdown",
+        "question": "Is the Subscription mandated with a HW purchase or can it be sold by itself?",
+        "answerToQuestion": "",
         "values": [
-          "CONF/HVS/SWSS/PER/TRAN Svc",
-          "UC/HVS/SWSS/SUB/TRAN Svc",
-          "Swatch/HVS/SWSS/PER/TRAN Svc",
-          "Swatch/HVS/SWSS/SUB/TRAN Svc",
-          "X-Arch/HVS/SWSS/SUB/TRAN Svc"
+          "Mandated with a HW Purchase",
+          "Sold by itself"
         ],
         "optionalMandatory": "Mandatory",
-        "rules": {
-          "referenceq": "Q9",
-          "selectedOption": "Service Commissionable",
-          "maxcharacter": "",
-          "URL": "",
-          "egineatt": "No",
-          "attributename": "",
-          "dateformat": "",
-          "specialcharacters": null,
-          "other": ""
-        },
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "B-View"
+      },
+      {
+        "oSgroup": "RTM",
+        "group": "Program",
+        "subGroup": "Route to Market",
+        "attribute": [
+          "Distribution"
+        ],
+        "questionNo": "Q54",
+        "questionType": "Free Text",
+        "question": "Will MY (multi year) and/or SMS SKUs need to be created?  If so, please specify. ",
+        "answerToQuestion": "",
+        "values": [],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "B-View"
+      },
+      {
+        "oSgroup": "Support",
+        "group": "Program",
+        "subGroup": "Route to Market",
+        "attribute": [
+          "Distribution"
+        ],
+        "questionNo": "Q19",
+        "questionType": "Free Text",
+        "question": "What is the expected service level? Please specify. ",
+        "answerToQuestion": "",
+        "values": [],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "SOE"
@@ -573,9 +779,31 @@
           "BUPM",
           "OLE"
         ],
-        "source": "eGenie",
-        "question": null,
-        "answerToQuestion": null
+        "source": "B-View"
+      },
+      {
+        "oSgroup": "RTM",
+        "group": "Program",
+        "subGroup": "Route to Market",
+        "attribute": [
+          "Distribution"
+        ],
+        "questionNo": "Q49",
+        "questionType": "Free Text",
+        "question": "Does the SW require HW? If yes, please specify. ",
+        "answerToQuestion": "",
+        "values": [],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "B-View"
       }
     ]
   },
@@ -590,38 +818,175 @@
         ],
         "attribute": null,
         "subGroupname": "Pricing Method",
-        "listofQuestions": []
+        "listofQuestions": [
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q51",
+            "questionType": "dropdown",
+            "question": "Is the Subscription mandated with a HW purchase or can it be sold by itself?",
+            "answerToQuestion": "",
+            "values": [
+              "Mandated with a HW Purchase",
+              "Sold by itself"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q54",
+            "questionType": "Free Text",
+            "question": "Will MY (multi year) and/or SMS SKUs need to be created?  If so, please specify. ",
+            "answerToQuestion": "",
+            "values": [],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "Support",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q19",
+            "questionType": "Free Text",
+            "question": "What is the expected service level? Please specify. ",
+            "answerToQuestion": "",
+            "values": [],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "SOE"
+            ],
+            "secondaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q49",
+            "questionType": "Free Text",
+            "question": "Does the SW require HW? If yes, please specify. ",
+            "answerToQuestion": "",
+            "values": [],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          }
+        ]
       }
     ],
     "listofAlwaysAsk": [
       {
-        "oSgroup": "Support",
-        "group": "Other",
-        "subGroup": "Other",
+        "oSgroup": "RTM",
+        "group": "Program",
+        "subGroup": "Route to Market",
         "attribute": [
-          "Other"
+          "Distribution"
         ],
-        "questionNo": "Q16",
+        "questionNo": "Q51",
         "questionType": "dropdown",
         "values": [
-          "CONF/HVS/SWSS/PER/TRAN Svc",
-          "UC/HVS/SWSS/SUB/TRAN Svc",
-          "Swatch/HVS/SWSS/PER/TRAN Svc",
-          "Swatch/HVS/SWSS/SUB/TRAN Svc",
-          "X-Arch/HVS/SWSS/SUB/TRAN Svc"
+          "Mandated with a HW Purchase",
+          "Sold by itself"
         ],
         "optionalMandatory": "Mandatory",
-        "rules": {
-          "referenceq": "Q9",
-          "selectedOption": "Service Commissionable",
-          "maxcharacter": "",
-          "URL": "",
-          "egineatt": "No",
-          "attributename": "",
-          "dateformat": "",
-          "specialcharacters": null,
-          "other": ""
-        },
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "B-View",
+        "question": "Is the Subscription mandated with a HW purchase or can it be sold by itself?",
+        "answerToQuestion": ""
+      },
+      {
+        "oSgroup": "RTM",
+        "group": "Program",
+        "subGroup": "Route to Market",
+        "attribute": [
+          "Distribution"
+        ],
+        "questionNo": "Q54",
+        "questionType": "Free Text",
+        "question": "Will MY (multi year) and/or SMS SKUs need to be created?  If so, please specify. ",
+        "answerToQuestion": "",
+        "values": [],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "B-View"
+      },
+      {
+        "oSgroup": "Support",
+        "group": "Program",
+        "subGroup": "Route to Market",
+        "attribute": [
+          "Distribution"
+        ],
+        "questionNo": "Q19",
+        "questionType": "Free Text",
+        "question": "What is the expected service level? Please specify. ",
+        "answerToQuestion": "",
+        "values": [],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "SOE"
@@ -630,9 +995,31 @@
           "BUPM",
           "OLE"
         ],
-        "source": "eGenie",
-        "question": null,
-        "answerToQuestion": null
+        "source": "B-View"
+      },
+      {
+        "oSgroup": "RTM",
+        "group": "Program",
+        "subGroup": "Route to Market",
+        "attribute": [
+          "Distribution"
+        ],
+        "questionNo": "Q49",
+        "questionType": "Free Text",
+        "question": "Does the SW require HW? If yes, please specify. ",
+        "answerToQuestion": "",
+        "values": [],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "B-View"
       }
     ]
   },
@@ -647,7 +1034,59 @@
         ],
         "attribute": null,
         "subGroupname": "Offer Components",
-        "listofQuestions": []
+        "listofQuestions": [
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q51",
+            "questionType": "dropdown",
+            "question": "Is the Subscription mandated with a HW purchase or can it be sold by itself?",
+            "answerToQuestion": "",
+            "values": [
+              "Mandated with a HW Purchase",
+              "Sold by itself"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q54",
+            "questionType": "Free Text",
+            "question": "Will MY (multi year) and/or SMS SKUs need to be created?  If so, please specify. ",
+            "answerToQuestion": "",
+            "values": [],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          }
+        ]
       },
       {
         "selected": [
@@ -655,7 +1094,59 @@
         ],
         "attribute": null,
         "subGroupname": "Deployment",
-        "listofQuestions": []
+        "listofQuestions": [
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q51",
+            "questionType": "dropdown",
+            "question": "Is the Subscription mandated with a HW purchase or can it be sold by itself?",
+            "answerToQuestion": "",
+            "values": [
+              "Mandated with a HW Purchase",
+              "Sold by itself"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q54",
+            "questionType": "Free Text",
+            "question": "Will MY (multi year) and/or SMS SKUs need to be created?  If so, please specify. ",
+            "answerToQuestion": "",
+            "values": [],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          }
+        ]
       },
       {
         "selected": [
@@ -663,7 +1154,59 @@
         ],
         "attribute": null,
         "subGroupname": "Hosting Party",
-        "listofQuestions": []
+        "listofQuestions": [
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q51",
+            "questionType": "dropdown",
+            "question": "Is the Subscription mandated with a HW purchase or can it be sold by itself?",
+            "answerToQuestion": "",
+            "values": [
+              "Mandated with a HW Purchase",
+              "Sold by itself"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q54",
+            "questionType": "Free Text",
+            "question": "Will MY (multi year) and/or SMS SKUs need to be created?  If so, please specify. ",
+            "answerToQuestion": "",
+            "values": [],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          }
+        ]
       },
       {
         "selected": [
@@ -671,7 +1214,59 @@
         ],
         "attribute": null,
         "subGroupname": "Delivery",
-        "listofQuestions": []
+        "listofQuestions": [
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q51",
+            "questionType": "dropdown",
+            "question": "Is the Subscription mandated with a HW purchase or can it be sold by itself?",
+            "answerToQuestion": "",
+            "values": [
+              "Mandated with a HW Purchase",
+              "Sold by itself"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q54",
+            "questionType": "Free Text",
+            "question": "Will MY (multi year) and/or SMS SKUs need to be created?  If so, please specify. ",
+            "answerToQuestion": "",
+            "values": [],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          }
+        ]
       },
       {
         "selected": [
@@ -679,38 +1274,127 @@
         ],
         "attribute": null,
         "subGroupname": "Licensing",
-        "listofQuestions": []
+        "listofQuestions": [
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q51",
+            "questionType": "dropdown",
+            "question": "Is the Subscription mandated with a HW purchase or can it be sold by itself?",
+            "answerToQuestion": "",
+            "values": [
+              "Mandated with a HW Purchase",
+              "Sold by itself"
+            ],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          },
+          {
+            "oSgroup": "RTM",
+            "group": "Program",
+            "subGroup": "Route to Market",
+            "attribute": [
+              "Distribution"
+            ],
+            "questionNo": "Q54",
+            "questionType": "Free Text",
+            "question": "Will MY (multi year) and/or SMS SKUs need to be created?  If so, please specify. ",
+            "answerToQuestion": "",
+            "values": [],
+            "optionalMandatory": "Mandatory",
+            "rules": "",
+            "errorMessage": "Mandatory",
+            "primaryPOC": [
+              "BUPM",
+              "OLE"
+            ],
+            "secondaryPOC": [
+              "N/A"
+            ],
+            "source": "B-View"
+          }
+        ]
       }
     ],
     "listofAlwaysAsk": [
       {
-        "oSgroup": "Support",
-        "group": "Other",
-        "subGroup": "Other",
+        "oSgroup": "RTM",
+        "group": "Program",
+        "subGroup": "Route to Market",
         "attribute": [
-          "Other"
+          "Distribution"
         ],
-        "questionNo": "Q16",
+        "questionNo": "Q51",
         "questionType": "dropdown",
         "values": [
-          "CONF/HVS/SWSS/PER/TRAN Svc",
-          "UC/HVS/SWSS/SUB/TRAN Svc",
-          "Swatch/HVS/SWSS/PER/TRAN Svc",
-          "Swatch/HVS/SWSS/SUB/TRAN Svc",
-          "X-Arch/HVS/SWSS/SUB/TRAN Svc"
+          "Mandated with a HW Purchase",
+          "Sold by itself"
         ],
         "optionalMandatory": "Mandatory",
-        "rules": {
-          "referenceq": "Q9",
-          "selectedOption": "Service Commissionable",
-          "maxcharacter": "",
-          "URL": "",
-          "egineatt": "No",
-          "attributename": "",
-          "dateformat": "",
-          "specialcharacters": null,
-          "other": ""
-        },
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "B-View",
+        "question": "Is the Subscription mandated with a HW purchase or can it be sold by itself?",
+        "answerToQuestion": ""
+      },
+      {
+        "oSgroup": "RTM",
+        "group": "Program",
+        "subGroup": "Route to Market",
+        "attribute": [
+          "Distribution"
+        ],
+        "questionNo": "Q54",
+        "questionType": "Free Text",
+        "question": "Will MY (multi year) and/or SMS SKUs need to be created?  If so, please specify. ",
+        "answerToQuestion": "",
+        "values": [],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "B-View"
+      },
+      {
+        "oSgroup": "Support",
+        "group": "Program",
+        "subGroup": "Route to Market",
+        "attribute": [
+          "Distribution"
+        ],
+        "questionNo": "Q19",
+        "questionType": "Free Text",
+        "question": "What is the expected service level? Please specify. ",
+        "answerToQuestion": "",
+        "values": [],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "SOE"
@@ -719,9 +1403,31 @@
           "BUPM",
           "OLE"
         ],
-        "source": "eGenie",
-        "question": null,
-        "answerToQuestion": null
+        "source": "B-View"
+      },
+      {
+        "oSgroup": "RTM",
+        "group": "Program",
+        "subGroup": "Route to Market",
+        "attribute": [
+          "Distribution"
+        ],
+        "questionNo": "Q49",
+        "questionType": "Free Text",
+        "question": "Does the SW require HW? If yes, please specify. ",
+        "answerToQuestion": "",
+        "values": [],
+        "optionalMandatory": "Mandatory",
+        "rules": "",
+        "errorMessage": "Mandatory",
+        "primaryPOC": [
+          "BUPM",
+          "OLE"
+        ],
+        "secondaryPOC": [
+          "N/A"
+        ],
+        "source": "B-View"
       }
     ]
   }

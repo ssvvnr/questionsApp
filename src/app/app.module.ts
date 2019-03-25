@@ -13,7 +13,9 @@ import {
   MatCardModule,
   MatButtonModule,
   MatDividerModule,
-  MatToolbarModule
+  MatToolbarModule,
+  MatInputModule,
+  MatSelectModule,
 } from '@angular/material';
 
 // Components
@@ -40,6 +42,8 @@ import { QuestionsService } from './questions.service';
     MatButtonModule,
     MatDividerModule,
     MatToolbarModule,
+    MatInputModule,
+    MatSelectModule,
     RouterModule.forRoot([
       {
         path: '',

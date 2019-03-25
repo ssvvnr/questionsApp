@@ -17,6 +17,10 @@
     margin: 10px;
 }
 
+.main-card {
+	padding: 0px 0px 10px 0px;
+}
+
 .mat-card {
 	margin: 10px;
 }
@@ -24,4 +28,26 @@
 	width: 100%;    
 	display: block;
 	margin: 10px 0px;
+}
+
+.mat-card-header .mat-card-title {
+	margin-bottom: 0px;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+	height: 45px;
+}
+
+.sub-group .mat-card-title {
+	font-size: 14px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
 }
