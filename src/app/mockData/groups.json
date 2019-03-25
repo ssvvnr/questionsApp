@@ -1190,10 +1190,13 @@
               "Distribution"
             ],
             "questionNo": "Q54",
-            "questionType": "Free Text",
+            "questionType": "Radio Button",
             "question": "Will MY (multi year) and/or SMS SKUs need to be created?  If so, please specify. ",
             "answerToQuestion": "",
-            "values": [],
+            "values": [
+              "Yes",
+              "No"
+            ],
             "optionalMandatory": "Mandatory",
             "rules": "",
             "errorMessage": "Mandatory",
@@ -1310,10 +1313,13 @@
               "Distribution"
             ],
             "questionNo": "Q54",
-            "questionType": "Free Text",
+            "questionType": "Radio Button",
             "question": "Will MY (multi year) and/or SMS SKUs need to be created?  If so, please specify. ",
             "answerToQuestion": "",
-            "values": [],
+            "values": [
+              "Yes",
+              "No"
+            ],
             "optionalMandatory": "Mandatory",
             "rules": "",
             "errorMessage": "Mandatory",
