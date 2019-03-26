@@ -27,7 +27,23 @@
               "Sold by itself"
             ],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -94,7 +110,23 @@
             "answerToQuestion": "",
             "values": [],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -250,7 +282,23 @@
               "Not Applicable"
             ],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -619,7 +667,23 @@
               "Sold by itself"
             ],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -643,7 +707,23 @@
             "answerToQuestion": "",
             "values": [],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -667,7 +747,23 @@
             "answerToQuestion": "",
             "values": [],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "SOE"
@@ -691,7 +787,23 @@
             "answerToQuestion": "",
             "values": [],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -722,7 +834,23 @@
           "Sold by itself"
         ],
         "optionalMandatory": "Mandatory",
-        "rules": "",
+        "rules": {
+          "isMandatoryOptional": "Mandatory",
+          "referenceQ": "Q9",
+          "selectedOption": "Service Commissionable",
+          "defaultSel": "N/A",
+          "selcount": "2",
+          "maxCharacterLen": "150",
+          "isURL": "No",
+          "isegineAtt": "No",
+          "dateformat": "DD-Mon-YYYY",
+          "specialCharExclude": [
+            "$",
+            "*"
+          ],
+          "textcase": "camel",
+          "other": ""
+        },
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "BUPM",
@@ -746,7 +874,23 @@
         "answerToQuestion": "",
         "values": [],
         "optionalMandatory": "Mandatory",
-        "rules": "",
+        "rules": {
+          "isMandatoryOptional": "Mandatory",
+          "referenceQ": "Q9",
+          "selectedOption": "Service Commissionable",
+          "defaultSel": "N/A",
+          "selcount": "2",
+          "maxCharacterLen": "150",
+          "isURL": "No",
+          "isegineAtt": "No",
+          "dateformat": "DD-Mon-YYYY",
+          "specialCharExclude": [
+            "$",
+            "*"
+          ],
+          "textcase": "camel",
+          "other": ""
+        },
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "BUPM",
@@ -770,7 +914,23 @@
         "answerToQuestion": "",
         "values": [],
         "optionalMandatory": "Mandatory",
-        "rules": "",
+        "rules": {
+          "isMandatoryOptional": "Mandatory",
+          "referenceQ": "Q9",
+          "selectedOption": "Service Commissionable",
+          "defaultSel": "N/A",
+          "selcount": "2",
+          "maxCharacterLen": "150",
+          "isURL": "No",
+          "isegineAtt": "No",
+          "dateformat": "DD-Mon-YYYY",
+          "specialCharExclude": [
+            "$",
+            "*"
+          ],
+          "textcase": "camel",
+          "other": ""
+        },
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "SOE"
@@ -794,7 +954,23 @@
         "answerToQuestion": "",
         "values": [],
         "optionalMandatory": "Mandatory",
-        "rules": "",
+        "rules": {
+          "isMandatoryOptional": "Mandatory",
+          "referenceQ": "Q9",
+          "selectedOption": "Service Commissionable",
+          "defaultSel": "N/A",
+          "selcount": "2",
+          "maxCharacterLen": "150",
+          "isURL": "No",
+          "isegineAtt": "No",
+          "dateformat": "DD-Mon-YYYY",
+          "specialCharExclude": [
+            "$",
+            "*"
+          ],
+          "textcase": "camel",
+          "other": ""
+        },
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "BUPM",
@@ -835,7 +1011,23 @@
               "Sold by itself"
             ],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -859,7 +1051,23 @@
             "answerToQuestion": "",
             "values": [],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -883,7 +1091,23 @@
             "answerToQuestion": "",
             "values": [],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "SOE"
@@ -907,7 +1131,23 @@
             "answerToQuestion": "",
             "values": [],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -936,7 +1176,23 @@
           "Sold by itself"
         ],
         "optionalMandatory": "Mandatory",
-        "rules": "",
+        "rules": {
+          "isMandatoryOptional": "Mandatory",
+          "referenceQ": "Q9",
+          "selectedOption": "Service Commissionable",
+          "defaultSel": "N/A",
+          "selcount": "2",
+          "maxCharacterLen": "150",
+          "isURL": "No",
+          "isegineAtt": "No",
+          "dateformat": "DD-Mon-YYYY",
+          "specialCharExclude": [
+            "$",
+            "*"
+          ],
+          "textcase": "camel",
+          "other": ""
+        },
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "BUPM",
@@ -962,7 +1218,23 @@
         "answerToQuestion": "",
         "values": [],
         "optionalMandatory": "Mandatory",
-        "rules": "",
+        "rules": {
+          "isMandatoryOptional": "Mandatory",
+          "referenceQ": "Q9",
+          "selectedOption": "Service Commissionable",
+          "defaultSel": "N/A",
+          "selcount": "2",
+          "maxCharacterLen": "150",
+          "isURL": "No",
+          "isegineAtt": "No",
+          "dateformat": "DD-Mon-YYYY",
+          "specialCharExclude": [
+            "$",
+            "*"
+          ],
+          "textcase": "camel",
+          "other": ""
+        },
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "BUPM",
@@ -986,7 +1258,23 @@
         "answerToQuestion": "",
         "values": [],
         "optionalMandatory": "Mandatory",
-        "rules": "",
+        "rules": {
+          "isMandatoryOptional": "Mandatory",
+          "referenceQ": "Q9",
+          "selectedOption": "Service Commissionable",
+          "defaultSel": "N/A",
+          "selcount": "2",
+          "maxCharacterLen": "150",
+          "isURL": "No",
+          "isegineAtt": "No",
+          "dateformat": "DD-Mon-YYYY",
+          "specialCharExclude": [
+            "$",
+            "*"
+          ],
+          "textcase": "camel",
+          "other": ""
+        },
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "SOE"
@@ -1010,7 +1298,23 @@
         "answerToQuestion": "",
         "values": [],
         "optionalMandatory": "Mandatory",
-        "rules": "",
+        "rules": {
+          "isMandatoryOptional": "Mandatory",
+          "referenceQ": "Q9",
+          "selectedOption": "Service Commissionable",
+          "defaultSel": "N/A",
+          "selcount": "2",
+          "maxCharacterLen": "150",
+          "isURL": "No",
+          "isegineAtt": "No",
+          "dateformat": "DD-Mon-YYYY",
+          "specialCharExclude": [
+            "$",
+            "*"
+          ],
+          "textcase": "camel",
+          "other": ""
+        },
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "BUPM",
@@ -1051,7 +1355,23 @@
               "Sold by itself"
             ],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -1075,7 +1395,23 @@
             "answerToQuestion": "",
             "values": [],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -1111,7 +1447,23 @@
               "Sold by itself"
             ],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -1135,7 +1487,23 @@
             "answerToQuestion": "",
             "values": [],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -1171,7 +1539,23 @@
               "Sold by itself"
             ],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -1198,7 +1582,23 @@
               "No"
             ],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -1234,7 +1634,23 @@
               "Sold by itself"
             ],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -1258,7 +1674,23 @@
             "answerToQuestion": "",
             "values": [],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -1294,7 +1726,23 @@
               "Sold by itself"
             ],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -1321,7 +1769,23 @@
               "No"
             ],
             "optionalMandatory": "Mandatory",
-            "rules": "",
+            "rules": {
+              "isMandatoryOptional": "Mandatory",
+              "referenceQ": "Q9",
+              "selectedOption": "Service Commissionable",
+              "defaultSel": "N/A",
+              "selcount": "2",
+              "maxCharacterLen": "150",
+              "isURL": "No",
+              "isegineAtt": "No",
+              "dateformat": "DD-Mon-YYYY",
+              "specialCharExclude": [
+                "$",
+                "*"
+              ],
+              "textcase": "camel",
+              "other": ""
+            },
             "errorMessage": "Mandatory",
             "primaryPOC": [
               "BUPM",
@@ -1350,7 +1814,23 @@
           "Sold by itself"
         ],
         "optionalMandatory": "Mandatory",
-        "rules": "",
+        "rules": {
+          "isMandatoryOptional": "Mandatory",
+          "referenceQ": "Q9",
+          "selectedOption": "Service Commissionable",
+          "defaultSel": "N/A",
+          "selcount": "2",
+          "maxCharacterLen": "150",
+          "isURL": "No",
+          "isegineAtt": "No",
+          "dateformat": "DD-Mon-YYYY",
+          "specialCharExclude": [
+            "$",
+            "*"
+          ],
+          "textcase": "camel",
+          "other": ""
+        },
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "BUPM",
@@ -1376,7 +1856,23 @@
         "answerToQuestion": "",
         "values": [],
         "optionalMandatory": "Mandatory",
-        "rules": "",
+        "rules": {
+          "isMandatoryOptional": "Mandatory",
+          "referenceQ": "Q9",
+          "selectedOption": "Service Commissionable",
+          "defaultSel": "N/A",
+          "selcount": "2",
+          "maxCharacterLen": "150",
+          "isURL": "No",
+          "isegineAtt": "No",
+          "dateformat": "DD-Mon-YYYY",
+          "specialCharExclude": [
+            "$",
+            "*"
+          ],
+          "textcase": "camel",
+          "other": ""
+        },
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "BUPM",
@@ -1400,7 +1896,23 @@
         "answerToQuestion": "",
         "values": [],
         "optionalMandatory": "Mandatory",
-        "rules": "",
+        "rules": {
+          "isMandatoryOptional": "Mandatory",
+          "referenceQ": "Q9",
+          "selectedOption": "Service Commissionable",
+          "defaultSel": "N/A",
+          "selcount": "2",
+          "maxCharacterLen": "150",
+          "isURL": "No",
+          "isegineAtt": "No",
+          "dateformat": "DD-Mon-YYYY",
+          "specialCharExclude": [
+            "$",
+            "*"
+          ],
+          "textcase": "camel",
+          "other": ""
+        },
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "SOE"
@@ -1424,7 +1936,23 @@
         "answerToQuestion": "",
         "values": [],
         "optionalMandatory": "Mandatory",
-        "rules": "",
+        "rules": {
+          "isMandatoryOptional": "Mandatory",
+          "referenceQ": "Q9",
+          "selectedOption": "Service Commissionable",
+          "defaultSel": "N/A",
+          "selcount": "2",
+          "maxCharacterLen": "150",
+          "isURL": "No",
+          "isegineAtt": "No",
+          "dateformat": "DD-Mon-YYYY",
+          "specialCharExclude": [
+            "$",
+            "*"
+          ],
+          "textcase": "camel",
+          "other": ""
+        },
         "errorMessage": "Mandatory",
         "primaryPOC": [
           "BUPM",
